@@ -2,7 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Inscription from "./components/inscription";
 import Acceuil from "./components/Acceuil";
+<<<<<<< HEAD
 import Utilisateurs from "./components/utilisateurs";
+=======
+>>>>>>> 7a224cd2912c749bff534da659c78be16e45df1c
 
 function App() {
   return (
@@ -10,7 +13,10 @@ function App() {
       <Routes>
           <Route path="/" element={<Inscription/>} />
           <Route path="/acceuil" element={<Acceuil/>} />
+<<<<<<< HEAD
           <Route path="/utilisateurs" element={<Utilisateurs/>} />
+=======
+>>>>>>> 7a224cd2912c749bff534da659c78be16e45df1c
     {/* <Route path="/navbar" element={<Navbar/>} /> 
     <Route path="/forgetPassword" element={<ForgetPassword/>} /> 
     <Route path="/videos" element={<Videos/>} />
