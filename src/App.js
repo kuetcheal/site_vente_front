@@ -2,23 +2,23 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Inscription from "./components/inscription";
 import Acceuil from "./components/Acceuil";
-<<<<<<< HEAD
 import Utilisateurs from "./components/utilisateurs";
-=======
->>>>>>> 7a224cd2912c749bff534da659c78be16e45df1c
+import Navbar from "./components/navbar";
+import Gallery from "./components/gallery";
+import InsertArticle from "./components/insertArticle";
+
 
 function App() {
   return (
-    <Router>
-      <Routes>
-          <Route path="/" element={<Inscription/>} />
-          <Route path="/acceuil" element={<Acceuil/>} />
-<<<<<<< HEAD
-          <Route path="/utilisateurs" element={<Utilisateurs/>} />
-=======
->>>>>>> 7a224cd2912c749bff534da659c78be16e45df1c
-    {/* <Route path="/navbar" element={<Navbar/>} /> 
-    <Route path="/forgetPassword" element={<ForgetPassword/>} /> 
+<Router>
+  <Routes>
+    <Route path="/" element={<Inscription/>} />
+    <Route path="/acceuil" element={<Acceuil/>} />
+    <Route path="/utilisateurs" element={<Utilisateurs/>} />
+    <Route path="/navbar" element={<Navbar/>} /> 
+    <Route path="/gallery" element={<Gallery/>} /> 
+    <Route path="/insertArticle" element={<InsertArticle/>} /> 
+    {/* <Route path="/forgetPassword" element={<ForgetPassword/>} /> 
     <Route path="/videos" element={<Videos/>} />
     <Route path="/videos1" element={<Videos1/>} />
     <Route path="/popup1" element={<Popup1/>} />
@@ -33,8 +33,8 @@ function App() {
     <Route path="/supression" element={<Supression/>} />
     <Route path="/ajoutvideos" element={<Ajoutvideos/>} /> */}
          {/* <Route path="*" element={<NotFoundPage />} /> */}
-      </Routes>
-  </Router> 
+  </Routes>
+</Router> 
   );
 }
 

@@ -1,0 +1,39 @@
+.navbar {
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    flex-grow: 1;
+    font-weight: bold;
+    color: #ff4081;
+    font-size: 80px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    color: #000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #ff4081;
+  }
+  
+  .navbar-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navbar-icons .MuiIconButton-root {
+    color: #000;
+  }
+  
